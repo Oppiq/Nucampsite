@@ -21,7 +21,6 @@ async function displayWeather(data){
 
     let loc = (`https://openweathermap.org/img/w/${locationIcon}.png`);
 
-
     const weatherTemperature = document.querySelector("#weather-temp");
     const weatherDescription = document.querySelector("#weather-description");
     const weatherIcon = document.querySelector("#weather-icon");
